@@ -1,0 +1,23 @@
+/* debug */
+.debug nav {
+    background-color: aqua;
+}
+.debug .container-xxl{
+    background-color: greenyellow;
+}
+.debug .container-xxl .sidebar{
+    background-color: blue;
+}
+.debug .container-xxl main{
+    background-color: brown;
+}
+
+
+
+.navbar-light{
+    height: 50px;
+}
+.navbar-dark{
+    width: 50px;
+    height: calc(100vh - 50px);
+}
