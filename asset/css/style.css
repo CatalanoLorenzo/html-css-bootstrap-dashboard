@@ -13,13 +13,16 @@
 }
 
 
-header{
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+.navbar-brand .logosm,
+.navbar-brand svg{
+    height: 52px;
 }
-.navbar-light{
-    height: 50px;
+.navbar-brand .logosm img{
+    height: 100%;
+    aspect-ratio: 1/1;
 }
+
 
 
 
