@@ -13,10 +13,21 @@
 }
 
 
-
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .navbar-light{
     height: 50px;
 }
+
+
+
+
+
+
+
+
 .navbar-dark{
     width: 50px;
     height: calc(100vh - 50px);
