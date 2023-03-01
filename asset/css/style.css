@@ -54,6 +54,13 @@
     background-image: url(../img/sidebar-bg.png);    width: 50px;
     height: calc(100vh - 70px);
 }
+.sidebar .stats:hover,
+.sidebar .signal:hover,
+.sidebar .admin:hover,
+.sidebar .home:hover{
+    filter: brightness(1);
+    background-color: #596976 ;
+}
 .principal main{
     height: calc(100vh - 70px);
     width: 100%;
@@ -67,9 +74,8 @@
 }
 
 .menu .new_students .offcanvas-body h3
-.menu .new_students .offcanvas{
-    width: 100vw;
-}
+
+
 .circle{
     background-color: var(--circle);
     width: 2rem;
@@ -92,6 +98,6 @@
         width: 150px;
     }
     .new_students .offcanvas{
-        width: 50vw;
+        width: 50vw!important;
     }
 }
