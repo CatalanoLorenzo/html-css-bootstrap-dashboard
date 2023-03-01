@@ -4,7 +4,12 @@
     --sidebarbg: #051e34;
     --menubg: #1b72e8;
     --badge-menu: #165bba;
+    --circle: #f26551;
+    --badge-done: #198754;
+    --badge-process: #ffc107;
+    --badge-failed: #dc3545;
 }
+
 /* debug */
 .debug nav {
     background-color: aqua;
@@ -62,12 +67,31 @@
 }
 
 .menu .new_students .offcanvas-body h3
-
-
-
+.menu .new_students .offcanvas{
+    width: 100vw;
+}
+.circle{
+    background-color: var(--circle);
+    width: 2rem;
+    aspect-ratio: 1/1;
+}
+.done{
+    background-color: var(--badge-done);
+}
+.process{
+    background-color: var(--badge-process);
+}
+.failed{
+    background-color: var(--badge-failed);
+}
+.img img{
+    width: 100%;
+}
 @media screen and (min-width:1200px) {
     .sidebar{
         width: 150px;
     }
-
+    .new_students .offcanvas{
+        width: 50vw;
+    }
 }
