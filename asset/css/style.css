@@ -1,3 +1,8 @@
+:root{
+    --navbar-form: #e5e5e5;
+
+
+}
 /* debug */
 .debug nav {
     background-color: aqua;
@@ -13,7 +18,7 @@
 }
 
 
-
+/* Logo navbar */
 .navbar-brand .logosm,
 .navbar-brand svg{
     height: 52px;
@@ -22,7 +27,11 @@
     height: 100%;
     aspect-ratio: 1/1;
 }
-
+/* SEARCHBAR */
+.navbar-light .input-group span,
+.navbar-light .input-group input{
+    background-color: var(--navbar-form);
+}
 
 
 
