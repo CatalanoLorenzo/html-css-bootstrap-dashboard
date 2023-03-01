@@ -8,13 +8,13 @@
 .debug nav {
     background-color: aqua;
 }
-.debug .container-xxl{
+.debug .principal{
     background-color: greenyellow;
 }
-.debug .container-xxl .sidebar{
+.debug .principal .sidebar{
     background-color: blue;
 }
-.debug .container-xxl main{
+.debug .principal main{
     background-color: brown;
 }
 
@@ -43,7 +43,7 @@
 
 
 
-.navbar-dark{
+.sidebar{
     width: 50px;
     height: calc(100vh - 50px);
 }
