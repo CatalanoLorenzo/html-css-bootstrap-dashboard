@@ -2,7 +2,8 @@
     --navbar-form: #e5e5e5;
     --bell: #ff8f00;
     --sidebarbg: #051e34;
-
+    --menubg: #1b72e8;
+    --badge-menu: #165bba;
 }
 /* debug */
 .debug nav {
@@ -48,6 +49,21 @@
     background-image: url(../img/sidebar-bg.png);    width: 50px;
     height: calc(100vh - 70px);
 }
+.principal main{
+    height: calc(100vh - 70px);
+    width: 100%;
+}
+.principal main .menu{
+    background-color: var(--menubg);
+}
+
+.menu .badge{
+    background-color: var(--badge-menu);
+}
+
+
+
+
 
 @media screen and (min-width:1200px) {
     .sidebar{
