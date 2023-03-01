@@ -1,5 +1,6 @@
 :root{
     --navbar-form: #e5e5e5;
+    --bell: #ff8f00;
 
 
 }
@@ -32,9 +33,11 @@
 .navbar-light .input-group input{
     background-color: var(--navbar-form);
 }
+/* dropdown menu */
 
-
-
+.dropdown button,.dropdown button:hover{
+    color: var(--bell);
+}
 
 
 
