@@ -125,37 +125,149 @@
                 <div class="container p-2">
                     <div class="row row-cols-1 row-cols-md-3">
                         <!-- add students -->
-                        <div class="col p-2 order-md-4">
+                        <div class="col p-2 order-md-4 new_students">
                             <span>Nuovo Studente</span>
-                            <button class="btn border text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                            <button class="btn border text-white" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                                 <i class="fa-solid fa-plus"></i>
                             </button>
-                                <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-                                    <div class="offcanvas-header">
-                                        <h5 class="offcanvas-title text-black" id="staticBackdropLabel">
+                            <div class="offcanvas offcanvas-end w-100" data-bs-backdrop="static" tabindex="-1"
+                                id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title text-black" id="staticBackdropLabel">
                                         Inserisci un nuovo studente
-                                        </h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                    </div>
-                                    <div class="offcanvas-body">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-6"></div>
-                                                <div class="col-6"></div>
-                                                <div class="col-6"></div>
-                                                <div class="col-6"></div>
-                                                <div class="col-6"></div>
-                                                <div class="col-6"></div>
-                                                <div class="col-12"></div>
-                                                <div class="col-6"></div>
-                                                <div class="col-4"></div>
-                                                <div class="col-2"></div>
-                                                <div class="col-12"></div>
-                                                <div class="col"></div>
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body text-black">
+                                    <div class="container">
+                                        <div class="row">
+                                            <!-- frist row -->
+                                            <div class="col-6">
+                                                <div class="title_input w-25">
+                                                    <h3>Nome</h3>
+                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <input type="text" class="form-control"
+                                                        aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="title_input w-25">
+                                                    <h3>Cognome</h3>
+                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <input type="text" class="form-control"
+                                                        aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <!-- second row -->
+                                            <div class="col-6">
+                                                <div class="title_input w-25">
+                                                    <h3>Email</h3>
+                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                  </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="title_input w-25">
+                                                    <h3>Password</h3>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <input type="password" class="form-control" name="" id="" >
+                                                </div>
+                                            </div>
+                                            <!-- third row -->
+                                            <div class="col-6">
+                                                <div class="title_input w-25">
+                                                    <h3>Indirizzo Email</h3>
+                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                  </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="title_input w-25">
+                                                    <h3>Password</h3>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <input type="password" class="form-control" name="" id="" >
+                                                </div>
+                                            </div>
+                                            <!-- fhourth row -->
+                                            <div class="col-12">
+                                                <div class="title_input w-25">
+                                                    <h3>Indirizzo</h3>
+                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <input type="text" class="form-control"
+                                                        aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <!-- fiveth row -->
+                                            <div class="col-6">
+                                                <div class="title_input w-25">
+                                                    <h3>Città</h3>
+                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <input type="text" class="form-control"
+                                                        aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="title_input w-25">
+                                                    <h3>Stato</h3>
+                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <select class="form-select" id="inputGroupSelect01">
+                                                      <option selected>Scegli...</option>
+                                                      <option value="1">Italia</option>
+                                                      <option value="2">Germania</option>
+                                                    </select>
+                                                  </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="title_input w-25">
+                                                    <h3>CAP</h3>
+                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <input type="number" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <!-- sixth row -->
+                                            <div class="col-12">
+                                                <div class="title_input w-25">
+                                                    <h3>Foto</h3>
+                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <input type="file" class="form-control" id="inputGroupFile01">
+                                                </div>
+                                            </div>
+                                            <!-- seven row -->
+                                            <div class="col-4">
+                                                <div class="input-group mb-3">
+                                                    <label for="check">
+                                                        <div class="input-group-text border-0 bg-white">
+                                                        <input class="form-check-input mt-0 " type="checkbox" value="checkbox" id="check" aria-label="Checkbox for following text input">
+                                                        <span class="p-3"> Seleziona per proseguire</span> 
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <!-- 8row -->
+                                            <div class="col-12">
+                                                
+                                                <button type="submit" class="btn btn-primary">Salva</button>
+                                                <button type="reset" class="btn btn-warning">Svuota</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                         </div>
 
                         <!-- logo -->
