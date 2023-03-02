@@ -23,8 +23,6 @@
 .debug .principal main{
     background-color: brown;
 }
-
-
 /* Logo navbar */
 .navbar-brand .logosm,
 .navbar-brand svg{
@@ -44,20 +42,18 @@
 .dropdown button,.dropdown button:hover{
     color: var(--bell);
 }
-
-
 .circle
 {
     background-color: var(--circle);
     width: 2rem;
     aspect-ratio: 1/1;
 }
-
-
+.sidebar,.principal main{
+    height: calc(100vh - 70px);
+}
 .sidebar{
     background-color: var(--sidebarbg);
     background-image: url(../img/sidebar-bg.png);    width: 50px;
-    height: calc(100vh - 70px);
 }
 .sidebar .stats:hover,
 .sidebar .signal:hover,
@@ -67,13 +63,11 @@
     background-color: #596976 ;
 }
 .principal main{
-    height: calc(100vh - 70px);
     width: 100%;
 }
 .principal main .menu{
     background-color: var(--menubg);
 }
-
 .menu .badge{
     background-color: var(--badge-menu);
 }
